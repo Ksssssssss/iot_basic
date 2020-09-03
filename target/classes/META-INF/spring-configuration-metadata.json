@@ -1,0 +1,64 @@
+{
+  "groups": [
+    {
+      "name": "redis",
+      "type": "com.htjc.iot.redis.config.RedisConfig",
+      "sourceType": "com.htjc.iot.redis.config.RedisConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "redis.host",
+      "type": "java.lang.String",
+      "sourceType": "com.htjc.iot.redis.config.RedisConfig"
+    },
+    {
+      "name": "redis.keys",
+      "type": "java.lang.String",
+      "sourceType": "com.htjc.iot.redis.config.RedisConfig"
+    },
+    {
+      "name": "redis.max-idle",
+      "type": "java.lang.Integer",
+      "sourceType": "com.htjc.iot.redis.config.RedisConfig",
+      "defaultValue": 0
+    },
+    {
+      "name": "redis.max-total",
+      "type": "java.lang.Integer",
+      "sourceType": "com.htjc.iot.redis.config.RedisConfig",
+      "defaultValue": 0
+    },
+    {
+      "name": "redis.min-idle",
+      "type": "java.lang.Integer",
+      "sourceType": "com.htjc.iot.redis.config.RedisConfig",
+      "defaultValue": 0
+    },
+    {
+      "name": "redis.port",
+      "type": "java.lang.Integer",
+      "sourceType": "com.htjc.iot.redis.config.RedisConfig",
+      "defaultValue": 0
+    },
+    {
+      "name": "redis.test-on-borrow",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.htjc.iot.redis.config.RedisConfig",
+      "defaultValue": false
+    },
+    {
+      "name": "redis.test-on-return",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.htjc.iot.redis.config.RedisConfig",
+      "defaultValue": false
+    },
+    {
+      "name": "redis.time-out",
+      "type": "java.lang.Long",
+      "sourceType": "com.htjc.iot.redis.config.RedisConfig",
+      "defaultValue": 0
+    }
+  ],
+  "hints": []
+}
